@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (Môi trường ảo) ---
+# Tên thường đặt, phòng trường hợp bạn tạo venv trong này
+env/
+venv/
+.env
+.venv
+
+# --- IDEs (Cấu hình trình soạn thảo) ---
+# PyCharm / IntelliJ (Tôi thấy thư mục này trong ảnh của bạn)
+.idea/
+*.iml
+
+# VS Code (Thêm vào cho chắc)
+.vscode/
+
+# --- Streamlit ---
+# Ẩn file chứa mật khẩu/key nếu có
+.streamlit/secrets.toml
+
+# --- Project Outputs & Datasets ---
+# Các thư mục output ảnh mà code của bạn sinh ra (như trong run_batch.py)
+test-out-3/
+output/
+result/
+
+# Dữ liệu ảnh input (nếu bạn copy vào project)
+dataset/
+data/
+*.jpg
+*.png
+*.jpeg
+# (Lưu ý: Nếu bạn muốn commit ảnh mẫu để test thì bỏ 3 dòng đuôi ảnh trên đi)
+
+# --- OS & Office Files ---
+# Windows thumbnails
+Thumbs.db
+ehthumbs.db
+
+# File tạm của Word (do bạn có file .docx)
+~$*.docx
+~$*.doc
